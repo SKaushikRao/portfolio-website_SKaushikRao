@@ -55,27 +55,28 @@ export default function App() {
   const sections = {
     about: {
       title: "About Me",
-      content: "I'm a passionate developer with 5+ years of experience building web applications. My expertise includes React, Node.js, and modern JavaScript frameworks. I enjoy creating intuitive user interfaces and solving complex problems."
+      content: "I’m S Kaushik Rao, a B.Tech AIML student from Manipal University Jaipur. I am fueled by curiosity and  love for challenges. From the moment I got my first laptop in 2nd standard, tech became my playground and my most loyal companion. Whether it’s reading, chess, or building ambitious projects that seem unreal—or deliver real-world impact—I dive in headfirst.While most follow the roadmap, I’m usually out building my own terrain. I’m driven by purpose, obsessed with growth, and always chasing the next version of myself. Let’s just say: ordinary isn’t in my dictionary."
     },
     skills: {
       title: "Skills & Expertise",
-      content: "Frontend: React, Next.js, TypeScript, CSS/SCSS\nBackend: Node.js, Express, MongoDB\nTools: Git, Docker, AWS\nOther: UI/UX Design, Responsive Web Design, Performance Optimization"
+      content: "Frontend: HTML, CSS, Javascript, Typescript, React, Tailwind CSS, Bootstrap, Framer motion\n \nBackend: python (flask), Django, Firebase, Sanity, Xano\n\nTools: Git, Notion, Fireabse, Gemini Studio, Create. \n\nAI & Data Science:Python - NumPy, Pandas, Scikit-learn, TensorFlow, Hugging Face.\n\n  UI/UX Design: Figma, Adobe XD, Spline, Dora.run, Wix"
     },
     projects: {
-      title: "Projects",
-      content: "Portfolio Website - A modern portfolio built with React and Framer Motion\nE-commerce Platform - Full-stack application using MERN stack\nAI Integration Tool - Connecting various ML models with web interfaces"
+      title: "Projects & Hackathons",
+      content: "Portfolio Website - A modern portfolio built with React and Framer Motion,\n Urban Heat Vulnerability Tool ( calculates Urban Heat island effect, Heatwave intensity, Tree cover and population density for a given location and Provides realtime soltuions for cooling. This project is my contribution for climate change. \nKisan-Crop_connect\n AI-Teacher\n Fly4less ( IEE Submission)\n SkillSwap ( All projects Can be viewed on My Github\n\n Hackathons: Techgig National Hackathon 2025 (Winner x2)\n IEEE Scam-a-thon\n NextAI Hack (Devpost - Students Only)\n LearnIT Datathon (MUJ - LearnIT)\n IEEE Hackerz Street 3.0\n Unstop Talent Park 2025\n Dorahacks"
     },
     awards: {
-      title: "Awards & Recognition",
-      content: "Best Developer Award - TechConf 2024\nOpen Source Contributor - React Community\nHackathon Winner - Global Coding Challenge 2023"
+      title: "Work Experience",
+      content: "Hackathon Winner(x2) - TechGIG National LLMs Hackathon 2025\nFull Stack Engineer, Content Writer - ASR Aviation\n Technical Head - EnviroClub MUJ\n Technical Team Member - LearnIT MUJ\n JWT Artifexus - LITMUS MUJ\n Member - MUJ ACM"
     },
     contact: {
       title: "Contact",
-      content: "Email: contact@example.com\nPhone: +1 (123) 456-7890\nLocation: San Francisco, CA"
+      content:"Email - skaushikrao@gmail.com\n\n Location - Jaipur/Bengaluru (India)\n\n LinkedIN - https://www.linkedin.com/in/s-kaushik-rao-33336a289/"
     },
+    
     socials: {
       title: "Social Links",
-      content: "GitHub: github.com/yourusername\nLinkedIn: linkedin.com/in/yourprofile\nTwitter: twitter.com/yourhandle"
+      content: "GitHub: github.com/SKaushikRao\n\nLinkedIn: https://www.linkedin.com/in/s-kaushik-rao-33336a289/ \n\n BlueSky : kxsckrisplato.bsky.social"
     },
   };
 
@@ -115,7 +116,7 @@ export default function App() {
           </h1>
           <h2 className="text-2xl text-gray-700 mt-2" style={{ fontFamily: "'Raleway', sans-serif" }}>
             <DecryptedText 
-              text="Frontend Engineer & UI/UX Designer" 
+              text="Web Developer      &           AI ML Enthusiast" 
               animateOn="manual"
               isManuallyTriggered={titleDecrypted}
               speed={130}
